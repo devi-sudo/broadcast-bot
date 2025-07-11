@@ -2,9 +2,9 @@
   "name": "telegram-spam-bot",
   "version": "1.0.0",
   "description": "Telegram broadcast bot with media support, formatting, and looped delivery",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node index.js"
   },
   "engines": {
     "node": ">=18.0.0"
