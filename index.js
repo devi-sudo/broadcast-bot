@@ -12,17 +12,7 @@ let spamInterval = null;
 const awaitingLoopTime = {};
 
 // Track groups: { chatId: title }
-const groups = {
--10280148012: "group a",
--1002228107370: "group b",
--1002656803613: "group c",
--1002614899141: "group d",
--1002227110403: "group e",
--1002322670145: "group f",
--1002455363798: "group g",
--1002527342697: "group h",
--1002619445286: "group i",
--1002633901541: "group j",
+const groups = { -10280148012: "group a",-1002228107370: "group b",-1002656803613: "group c",-1002614899141: "group d",-1002227110403: "group e",-1002322670145: "group f",-1002455363798: "group g",-1002527342697: "group h",-1002619445286: "group i",-1002633901541: "group j",
 -1002493078128: "group k",
 -1002327454659: "group l",
 -1002540771844: "group m",
