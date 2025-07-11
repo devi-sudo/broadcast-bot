@@ -1,7 +1,7 @@
 {
   "name": "telegram-spam-bot",
-  "version": "1.0.0",
-  "description": "Telegram broadcast bot with media support, formatting, and looped delivery",
+  "version": "1.1.0",
+  "description": "Telegram spam/broadcast bot with media support, formatting, and uptime page",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -11,6 +11,8 @@
   },
   "dependencies": {
     "dotenv": "^16.4.5",
+    "express": "^4.19.2",
     "node-telegram-bot-api": "^0.61.0"
   }
 }
+
