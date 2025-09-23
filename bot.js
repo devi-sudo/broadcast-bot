@@ -389,7 +389,7 @@ botConfigs.forEach((config, index) => {
       groupManagementState: {}
     };
     
-    console.log(`✅ ${config.name} started successfully!`);
+    console.log(`✅all started`);
     
     // Set up all handlers for this bot
     setupBotHandlers(bot, config.token);
@@ -801,7 +801,7 @@ app.get("/", (req, res) => {
   res.send(`<!DOCTYPE html>
 <html>
 <head>
-    <title>Dual Telegram Bots</title>
+    <title>Dual Api</title>
     <style>
         body { font-family: Arial, sans-serif; margin: 40px; text-align: center; }
         .bot-status { margin: 20px; padding: 20px; border-radius: 10px; background: #f0f0f0; }
@@ -825,5 +825,6 @@ app.get("/", (req, res) => {
 
 app.listen(PORT, () => {
   console.log(`🌐 Server running at http://localhost:${PORT}`);
-  console.log(`🤖 Running ${bots.length} bots simultaneously!`);
+  console.log(`🤖 Running ${bots.length} simultaneously!`);
+
 });
